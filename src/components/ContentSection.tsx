@@ -139,23 +139,53 @@ export function ContentSection() {
           </div>
         </div>
 
-        {/* Content - Párrafos simples uno debajo del otro */}
-        <div className="max-w-4xl mx-auto space-y-6 px-8 md:px-0">
-          <p className="text-base md:text-lg leading-relaxed text-white font-normal">
-            Trained in both <span className="font-semibold text-[#00D4AA]">Economics</span> and <span className="font-semibold text-[#00D4AA]">Software Engineering</span> (42 Madrid), I serve as the key link where market strategy meets technical execution. As a Technical Business Developer, my job is to find, translate, and deliver tech solutions that create real business growth.
-          </p>
+        {/* Content - Bullets con emojis */}
+        <div className="max-w-4xl mx-auto space-y-8 px-8 md:px-0">
           
-          <p className="text-base md:text-lg leading-relaxed text-white font-normal">
-            Currently with <span className="font-semibold text-[#00D4AA]">Telefónica Digital Innovation's Open Gateway Project</span>, I focus on closing the distance between complex engineering and scalable business opportunities, turning new ideas into measurable income.
-          </p>
-          
-          <p className="text-base md:text-lg leading-relaxed text-white font-normal">
-            I bring a unique mix of analytical skill, adaptability, and teamwork to every project. My passion for <span className="font-semibold text-[#00D4AA]">analog photography</span> and <span className="font-semibold text-[#00D4AA]">travel</span> influences how I work: they teach me to simplify complicated subjects and always look for fresh perspectives.
-          </p>
-          
-          <p className="text-base md:text-lg leading-relaxed text-white font-normal">
-            This curiosity helps me understand the technology and the different markets it can successfully impact. I'm motivated by results and driven to find the next competitive edge.
-          </p>
+          {/* Strategic Bridge */}
+          <div className="flex items-start gap-6">
+            <span className="text-5xl md:text-6xl flex-shrink-0">🔗</span>
+            <div>
+              <h3 className="text-xl md:text-2xl font-bold text-[#00D4AA] mb-2">Strategic Bridge</h3>
+              <p className="text-base md:text-lg leading-relaxed text-white font-normal">
+                My background in Economics and Software Engineering (42 Madrid) positions me as the key link between market strategy and technical execution.
+              </p>
+            </div>
+          </div>
+
+          {/* Business Impact */}
+          <div className="flex items-start gap-6">
+            <span className="text-5xl md:text-6xl flex-shrink-0">🚀</span>
+            <div>
+              <h3 className="text-xl md:text-2xl font-bold text-[#00D4AA] mb-2">Business Impact</h3>
+              <p className="text-base md:text-lg leading-relaxed text-white font-normal">
+                Currently at Telefónica Open Gateway, I translate complex ideas into scalable opportunities and measurable income growth.
+              </p>
+            </div>
+          </div>
+
+          {/* Core Skills */}
+          <div className="flex items-start gap-6">
+            <span className="text-5xl md:text-6xl flex-shrink-0">🧠</span>
+            <div>
+              <h3 className="text-xl md:text-2xl font-bold text-[#00D4AA] mb-2">Core Skills</h3>
+              <p className="text-base md:text-lg leading-relaxed text-white font-normal">
+                I bring a unique blend of analytical skill, adaptability, and teamwork to every project, driven by results.
+              </p>
+            </div>
+          </div>
+
+          {/* Fresh Perspective */}
+          <div className="flex items-start gap-6">
+            <span className="text-5xl md:text-6xl flex-shrink-0">💡</span>
+            <div>
+              <h3 className="text-xl md:text-2xl font-bold text-[#00D4AA] mb-2">Fresh Perspective</h3>
+              <p className="text-base md:text-lg leading-relaxed text-white font-normal">
+                My curiosity, influenced by analog photography and travel, helps me simplify complexity and constantly seek a competitive edge.
+              </p>
+            </div>
+          </div>
+
         </div>
 
         {/* GSAP Floating elements */}

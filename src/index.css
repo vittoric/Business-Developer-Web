@@ -1278,6 +1278,9 @@
   .text-\[\#00D4AA\] {
     color: #00d4aa;
   }
+  .text-\[\#009779\] {
+    color: #02b18e;
+  }
 
   .text-black {
     color: var(--color-black);

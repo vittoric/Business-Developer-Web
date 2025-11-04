@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import cameraImage from "figma:asset/71d7f8a930b97e62da19c95bf44e32361c3fe950.png";
+import presentationImage from "../assets/presentacion.png";
 import { LiveInfo } from "./LiveInfo";
 import { Menu } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "./ui/sheet";
@@ -175,8 +175,9 @@ export function ParallaxHero() {
         className="absolute top-20 md:top-24 left-0 right-0 z-40 text-center overflow-hidden px-4"
         style={{ height: "calc(100vh - 5rem)" }}
       >
+        {/*aqui en color #00D4AA se pone el color verde del titulo */}
         <h2
-          className="text-[clamp(1.5rem,8vw,8rem)] md:text-[clamp(2rem,6vw,8rem)] font-black tracking-tighter leading-[0.8] text-black will-change-transform"
+          className="text-[clamp(1.5rem,8vw,8rem)] md:text-[clamp(2rem,6vw,8rem)] font-black tracking-tighter leading-[0.8] text-[#009779] will-change-transform"
           style={{
             transform: `translateY(${Math.min(scrollY * (isMobile ? 0.8 : 0.7), typeof window !== "undefined" ? window.innerHeight * 0.6 : 400)}px)`,
           }}
@@ -209,8 +210,8 @@ export function ParallaxHero() {
           }}
         >
           <img
-            src={cameraImage}
-            alt="Victoria Codreanu"
+            src={presentationImage}
+            alt="Victoria Codreanu presentando"
             className="w-full h-full object-cover"
             loading="eager"
           />
