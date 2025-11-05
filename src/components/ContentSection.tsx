@@ -83,7 +83,7 @@ export function ContentSection() {
               <h1 
                 className="font-black tracking-tighter leading-[0.85] uppercase"
                 style={{
-                  fontSize: 'clamp(2.5rem, 10vw, 10rem)',
+                  fontSize: 'clamp(1rem, 8vw, 8rem)',
                   background: 'linear-gradient(135deg, #00D4AA 0%, #FFFFFF 50%, #00D4AA 100%)',
                   backgroundSize: '200% 100%',
                   WebkitBackgroundClip: 'text',
@@ -101,7 +101,7 @@ export function ContentSection() {
               <h1 
                 className="font-black tracking-tighter leading-[0.85] uppercase"
                 style={{
-                  fontSize: 'clamp(2.5rem, 10vw, 10rem)',
+                  fontSize: 'clamp(1rem, 8vw, 8rem',
                   background: 'linear-gradient(135deg, #FFFFFF 0%, #00D4AA 50%, #FFFFFF 100%)',
                   backgroundSize: '200% 100%',
                   WebkitBackgroundClip: 'text',
@@ -119,7 +119,7 @@ export function ContentSection() {
               <h1 
                 className="font-black tracking-tighter leading-[0.85] uppercase"
                 style={{
-                  fontSize: 'clamp(2.5rem, 10vw, 10rem)',
+                  fontSize: 'clamp(1rem, 8vw, 8rem)',
                   background: 'linear-gradient(135deg, #00D4AA 0%, #FFFFFF 50%, #00D4AA 100%)',
                   backgroundSize: '200% 100%',
                   WebkitBackgroundClip: 'text',

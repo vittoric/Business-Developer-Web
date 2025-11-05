@@ -159,7 +159,7 @@ Interactive section powered by GSAP animations, showcasing my background in Econ
 ### 💼 Work Experience
 Timeline-based layout featuring:
 - Technical Business Development at Telefónica Innovación Digital
-- Web Developer at Nucleao Studio
+- Web Developer at Nucleo Studio
 - Open Gateway Strategy GTM at Telefónica
 - Project Manager at HER DAO SPAIN
 - Administrator at Lenca Tours S.L.

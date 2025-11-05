@@ -9,7 +9,7 @@ export function WorkExperience() {
     },
     {
       title: "Web Developer",
-      company: "Nucleao Studio",
+      company: "Nucleo Studio",
       location: "Madrid | Remote",
       period: "09/2024 - 01/2025",
       summary: "Delivered multiple customized web projects across diverse sectors including IT consulting services, venture capital, Web3 and B2B sales, improving clients' online presence through optimized loading times and enhanced user engagement."
