@@ -1,5 +1,5 @@
 import { Linkedin, Mail, Heart, Github } from "lucide-react";
-import cv from "../assets/CV- Codreanu Victoria.pdf";
+import cv from "../assets/Codreanu_Victoria_CV"
 
 export function Footer() {
   return (
@@ -82,7 +82,7 @@ export function Footer() {
           <div className="flex justify-center">
             <a 
               href={cv}
-              download="CV-Codreanu-Victoria.pdf"
+              download="Codreanu_Victoria_CV.pdf"
               className="group bg-transparent border-2 border-[#00D4AA] text-[#00D4AA] hover:bg-[#00D4AA] hover:text-black px-12 py-5 tracking-widest uppercase transition-all duration-300 relative overflow-hidden inline-flex items-center"
             >
               <span className="relative z-10 flex items-center gap-3">
