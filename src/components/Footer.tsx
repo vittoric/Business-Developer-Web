@@ -1,5 +1,6 @@
 import { Linkedin, Mail, Heart, Github } from "lucide-react";
-import cv from "../assets/Codreanu_Victoria_CV.pdf";
+import cv from "../assets/Codreanu_Victoria_CV_2025.pdf";
+
 
 export function Footer() {
   return (
