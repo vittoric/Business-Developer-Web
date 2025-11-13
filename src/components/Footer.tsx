@@ -14,7 +14,7 @@ export function Footer() {
             </h2>
             <div className="w-24 h-1 bg-[#00D4AA] mx-auto mb-12"></div>
             <p className="text-xl md:text-2xl mb-16 text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              Ready to bring your vision to life? Let's collaborate on something extraordinary.
+              Ready to bring your vision to life? Let's collaborate on something extraordinary
             </p>
           </div>
 
