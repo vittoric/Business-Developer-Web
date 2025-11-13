@@ -1,8 +1,8 @@
 export function WorkExperience() {
   const experiences = [
     {
-      title: "Technical Business Development",
-      company: "Telefónica Innovación Digital Open Gateway Global",
+      title: "Open Gateway -Technical Business Development",
+      company: "Beigar | Client Telefónica Innovación Digital",
       location: "Madrid",
       period: "01/2025 - Present",
       summary: "Leading technical business development initiatives, I improved team performance by 37% through CRM optimization and conducted 25+ API demonstrations. Developed new use cases by analyzing client requirements and collaborated cross-functionally to expand Open Gateway awareness and drive product adoption across the industry."
