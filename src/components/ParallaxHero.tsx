@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import presentationImage from "../assets/presentacion.png";
+import presentationImage from "../assets/foto_hero.jpg";
 import { LiveInfo } from "./LiveInfo";
 import { Menu } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "./ui/sheet";
