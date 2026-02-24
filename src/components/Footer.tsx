@@ -120,7 +120,7 @@ export function Footer() {
 
             {/* Copyright */}
             <div className="flex items-center gap-2">
-              <span>© 2025 Victoria Codreanu</span>
+              <span>© 2026 Victoria Codreanu</span>
               <span className="hidden md:inline">•</span>
               <span>ALL RIGHTS RESERVED</span>
             </div>
